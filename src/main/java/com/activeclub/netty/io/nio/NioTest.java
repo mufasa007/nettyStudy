@@ -1,4 +1,4 @@
-package com.activeclub.netty.io.bio;
+package com.activeclub.netty.io.nio;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
