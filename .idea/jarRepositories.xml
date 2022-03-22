@@ -2,9 +2,29 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
+      <option name="id" value="nexus-s" />
+      <option name="name" value="nexus-s" />
+      <option name="url" value="http://repos.corp.hzcominfo.com:6080/nexus/content/repositories/snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="DRPD-release" />
+      <option name="name" value="DRPD-release" />
+      <option name="url" value="http://af.hikvision.com.cn/artifactory/DRPD-release/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="DRPD-snapshot" />
+      <option name="name" value="DRPD-snapshot" />
+      <option name="url" value="http://af.hikvision.com.cn/artifactory/DRPD-snapshot/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repositories" />
       <option name="url" value="http://47.98.35.29:8081/nexus/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus-3" />
+      <option name="name" value="nexus-3" />
+      <option name="url" value="http://repos.corp.hzcominfo.com:6080/nexus/content/repositories/thirdparty/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="release" />
@@ -17,9 +37,29 @@
       <option name="url" value="http://47.98.35.29:8081/nexus/repository/maven-public/" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="central" />
-      <option name="name" value="Maven Central repository" />
-      <option name="url" value="https://repo1.maven.org/maven2" />
+      <option name="id" value="cominfo-3rd" />
+      <option name="name" value="cominfo-3rd" />
+      <option name="url" value="http://repos.corp.hzcominfo.com:6080/nexus/content/repositories/thirdparty/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="hikvision-release" />
+      <option name="name" value="hikvision-release" />
+      <option name="url" value="http://maven.hikvision.com.cn/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus-r" />
+      <option name="name" value="nexus-r" />
+      <option name="url" value="http://repos.corp.hzcominfo.com:6080/nexus/content/repositories/releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="fsdmdept-snapshot" />
+      <option name="name" value="fsdmdept-snapshot" />
+      <option name="url" value="http://af.hikvision.com.cn:80/artifactory/fsdmdept-snapshot/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cominfo-snp" />
+      <option name="name" value="cominfo-snp" />
+      <option name="url" value="http://repos.corp.hzcominfo.com:6080/nexus/content/repositories/snapshots/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="jboss.community" />
@@ -30,6 +70,66 @@
       <option name="id" value="nexus" />
       <option name="name" value="Public Repositories" />
       <option name="url" value="http://47.98.35.29:8081/nexus/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="SSRD-bigdata-snapshot" />
+      <option name="name" value="SSRD-bigdata-snapshot" />
+      <option name="url" value="http://af.hikvision.com.cn:80/artifactory/SSRD-bigdata-snapshot" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="SSRD-bigdata-release" />
+      <option name="name" value="SSRD-bigdata-release" />
+      <option name="url" value="http://af.hikvision.com.cn:80/artifactory/SSRD-bigdata-release" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="af" />
+      <option name="name" value="af" />
+      <option name="url" value="http://af.hikvision.com.cn" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="central" />
+      <option name="url" value="http://maven.hikvision.com.cn/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven-proxy-remote-cache" />
+      <option name="name" value="maven-proxy-remote-cache" />
+      <option name="url" value="http://af.hikvision.com.cn:80/artifactory/maven-proxy-remote-cache/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="fsdmdept-release" />
+      <option name="name" value="fsdmdept-release" />
+      <option name="url" value="http://af.hikvision.com.cn/artifactory/fsdmdept-release/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="hikvision-snapshot" />
+      <option name="name" value="hikvision-snapshot" />
+      <option name="url" value="http://maven.hikvision.com.cn/nexus/content/repositories/thirdparty/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven-down" />
+      <option name="name" value="maven-down" />
+      <option name="url" value="http://af.hikvision.com.cn/artifactory/maven-down" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="aliyun" />
+      <option name="name" value="aliyun" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cominfo-rel" />
+      <option name="name" value="cominfo-rel" />
+      <option name="url" value="http://repos.corp.hzcominfo.com:6080/nexus/content/groups/public/" />
     </remote-repository>
   </component>
 </project>
